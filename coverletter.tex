@@ -1,0 +1,47 @@
+% Document class and font size
+\documentclass[letterpaper,10pt]{extarticle}
+\usepackage{lmodern} % og font family (lighter)
+
+% new font (almost sans serif, narrower
+\usepackage{charter}
+\fontfamily{bch}\selectfont
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+% \geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Packages (I Added)
+\usepackage{soul} % For highlighting
+\usepackage{xcolor} % For color
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large David Zhan}\\[2pt] % Name
+Albany, CA | Amherst, MA
+
+\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} | \href{tel:5105080222}{(510) 508-0222}
+
+\href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} | \href{https://davidzhan.com}{davidzhan.com} | \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+\end{center}
+
+testing the things that I'm writing sdflijsdfl iajsdlf jsdlf ijsdifjsdilfj 
+
+
+% End document
+\end{document}
