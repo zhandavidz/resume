@@ -1,10 +1,23 @@
 % Document class and font size
-\documentclass[letterpaper,10pt]{extarticle}
-\usepackage{lmodern} % og font family (lighter)
+\documentclass[letterpaper,12pt]{extarticle}
 
-% new font (almost sans serif, narrower
-\usepackage{charter}
-\fontfamily{bch}\selectfont
+
+% FONT: Charter (almost sans serif, narrower)
+% \usepackage{lmodern} % font family (lighter)
+% \usepackage{charter}
+% \fontfamily{bch}\selectfont
+
+% FONT: Helvetica (bolder, bigger sans serif)
+\usepackage{helvet} % font family
+\fontfamily{phv}\selectfont
+
+% FONT: Computer Modern Sans Serif (thinner, smaller sans serif)
+% \fontfamily{cmss}\selectfont
+
+% \usepackage{lmodern}
+% \fontfamily{lmss}\selectfont
+
+\renewcommand{\familydefault}{\sfdefault}
 
 % Packages
 \usepackage[utf8]{inputenc} % For input encoding
@@ -19,6 +32,11 @@
 \usepackage{soul} % For highlighting
 \usepackage{xcolor} % For color
 
+% custom parskip - remove indentations, add spacing between paragraphs
+% \usepackage{parskip}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1\bigskipamount} %  plus \smallskipamount minus \smallskipamount
+
 % Formatting
 \setlist{noitemsep} % Removes item separation
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
@@ -32,15 +50,25 @@
 
 % Header
 \begin{center}
-\textbf{\Large David Zhan}\\[2pt] % Name
-Albany, CA | Amherst, MA
+\textbf{\large David Zhan}\\[2pt] % Name
 
-\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} | \href{tel:5105080222}{(510) 508-0222}
+Albany, CA $|$ Amherst, MA $|$
+\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
 
-\href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} | \href{https://davidzhan.com}{davidzhan.com} | \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+% \hrulefill
 \end{center}
 
-testing the things that I'm writing sdflijsdfl iajsdlf jsdlf ijsdifjsdilfj 
+January 12, 2024\\
+
+Dear Hiring Manager,
+
+
+
+Thank you for your time and consideration. I look forward to hearing back from you!
+
+Sincerely,\\
+David Zhan
+
 
 
 % End document

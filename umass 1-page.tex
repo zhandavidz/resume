@@ -1,25 +1,10 @@
-% places to update: GitHub (release package), /Documents, website, Handshake, LinkedIn
-
 % Document class and font size
 \documentclass[letterpaper,10pt]{extarticle}
+\usepackage{lmodern} % font family (lighter)
 
-% FONT: Charter (almost sans serif, narrower)
-% \usepackage{lmodern} % font family (lighter)
-% \usepackage{charter}
-% \fontfamily{bch}\selectfont
-
-% FONT: Helvetica (bolder, bigger sans serif)
-\usepackage{helvet} % font family
-\fontfamily{phv}\selectfont
-
-% FONT: Computer Modern Sans Serif (thinner, smaller sans serif)
-% \fontfamily{cmss}\selectfont
-
-% \usepackage{lmodern}
-% \fontfamily{lmss}\selectfont
-
-\renewcommand{\familydefault}{\sfdefault}
-
+% new font (almost sans serif, narrower
+\usepackage{charter}
+\fontfamily{bch}\selectfont
 
 % Packages
 \usepackage[utf8]{inputenc} % For input encoding
@@ -48,9 +33,9 @@
 % Header
 \begin{center}
 \textbf{\Large David Zhan}\\[2pt] % Name
-Albany, CA | Amherst, MA
+Amherst, MA
 
-\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} | \href{tel:5105080222}{(510) 508-0222}
+\href{mailto:dzhan@umass.edu}{dzhan@umass.edu} | \href{tel:5105080222}{(510) 508-0222}
 
 \href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} | \href{https://davidzhan.com}{davidzhan.com} | \href{https://github.com/zhandavidz}{github.com/zhandavidz}
 \end{center}
@@ -59,41 +44,26 @@ Albany, CA | Amherst, MA
 \section*{EDUCATION}
 \noindent
 \textbf{University of Massachusetts Amherst} \hfill Expected: Sep 2022 - \textbf{May 2025}\\ % University name and location
-BS, Computer Science (Honors) \hfill Overall GPA: 3.97 | Major GPA: 4.0 % Degree and GPA
-% Commonwealth Honors College % \hfill Manning College of Information and Computer Sciences
+BS, Computer Science \hfill Overall GPA: 3.96 | Major GPA 4.0\\ % Degree and GPA
+Commonwealth Honors College % \hfill Manning College of Information and Computer Sciences
 
 % Experience Section
 \section*{EXPERIENCE}
-
 \noindent
-\textbf{UMass Amherst | CICS} \hfill Anticipated Start: Feb 2024 \\ % Project or organization name and location
-\textit{Undergraduate Course Assistant} %\hfill Anticipated Start: Feb 2023 % Position and duration
+\textbf{Albany Hacks 2022} \hfill Apr 2022\\ % Company name and location
+\textit{Organizer, Judge} \hfill \texttt{\href{https://albany-hacks-2022.devpost.com/}{albany-hacks-2022.devpost.com}} 
 \begin{itemize}
-    % \item Worked as a teaching assistant in the Web Development and Programming in Java classes.
-    % CS 230: Computer Systems Principles
-    \item Assist in a computer systems course during lectures and by grading assignments, labs, and exams.
-    \item Lead labs and small group discussions, help students during office hours and on the class discussion board.
-    % \item Analyzed student code, assisted in grading, and led my own small group of students in completing classwork.
-    \item Gain leadership skills, learn to better communicate with and teach core concepts to my peers.
-    % \item Learn to better communicate and lead groups to better collaborate with each other and be responsible.
-    % \item \hl{finish description}
+    \item As president of Programming Club, I founded my school's first hackathon and served as an organizer and judge.
+    \item Helped fundraise \$200 in prizes, with many guest speakers and workshops throughout the hackathon.
+    \item Learned a lot about communication and leading a team to successfully run and organize a large event.
 \end{itemize}
 
-% \noindent
-% \textbf{Albany Hacks 2022} \hfill Apr 2022\\ % Company name and location
-% \textit{Organizer, Judge} \hfill \texttt{\href{https://albany-hacks-2022.devpost.com/}{albany-hacks-2022.devpost.com}} 
-% \begin{itemize}
-%     \item As president of Programming Club, I founded my school's first hackathon and served as an organizer and judge.
-%     \item Helped fundraise \$200 in prizes, with many guest speakers and workshops throughout the hackathon.
-%     \item Learned a lot about communication and leading a team to successfully run and organize a large event.
-% \end{itemize}
-
 \noindent
-\textbf{RadWatch | UC Berkeley} \hfill Jun - Aug 2021 \\
-\textit{Summer Intern / Data Analyst Intern} \hfill Jun - Aug 2020
+\textbf{RadWatch | UC Berkeley Dept Nuclear Engineering} \hfill Jun - Aug 2021 \\
+\textit{Summer Intern} \hfill Jun - Aug 2020
 \begin{itemize}
     \item Worked on DoseNet, an international sensor network for improving community understanding of radiation.
-    \item Created and integrated Python scripts and web tools to process and visualize mass quantities of sensor data.
+    \item Created and integrated scripts and web tools to process and visualize mass quantities of sensor data.
     \item Learned to communicate and collaborate with a group to improve and add features to an existing project.
     % \item Integrated my tools with the overall project.
 \end{itemize}
@@ -104,7 +74,7 @@ BS, Computer Science (Honors) \hfill Overall GPA: 3.97 | Major GPA: 4.0 % Degree
 \textit{Teaching Assistant: Web Development, Programming in Java} \hfill Jun - Aug 2017 % Position and duration
 \begin{itemize}
     % \item Worked as a teaching assistant in the Web Development and Programming in Java classes.
-    \item Analyzed student code, assisted in grading, and led many small groups of students in completing classwork.
+    \item Analyzed student code, assisted in grading, and led my own small group of students in completing classwork.
     \item Learned how to communicate and lead groups to better collaborate with each other and be responsible.
     % \item \hl{finish description}
 \end{itemize}
@@ -122,7 +92,7 @@ BS, Computer Science (Honors) \hfill Overall GPA: 3.97 | Major GPA: 4.0 % Degree
 \section*{PROJECTS}
 \noindent
 \textbf{Blahgenda} \hfill Nov 2022\\ % Project name and location
-\textit{JavaScript, React.js, HTML/CSS/Sass} \hfill \texttt{\href{https://blahgenda.dzhan.dev}{blahgenda.dzhan.dev}} | \texttt{\href{https://devpost.com/software/blahgenda}{devpost.com/software/blahgenda}}
+\textit{React.js, Appwrite, HTML/Sass, AWS} \hfill \texttt{\href{https://blahgenda.dzhan.dev}{blahgenda.dzhan.dev}} | \texttt{\href{https://devpost.com/software/blahgenda}{devpost.com/software/blahgenda}}
 \begin{itemize}
     \item Winning submission to HackUMass X in the category Best Use of Appwrite.
     \item Is a calendar and scheduler designed to maximize efficiency and glanceability while remaining beautiful.
@@ -133,9 +103,9 @@ BS, Computer Science (Honors) \hfill Overall GPA: 3.97 | Major GPA: 4.0 % Degree
 % Additional Project
 \noindent
 \textbf{Personal Website} \hfill Oct 2017 - Present\\ % Project name and location
-\textit{JavaScript, HTML/CSS/Sass, Git, Linux} \hfill \texttt{\href{https://davidzhan.com}{davidzhan.com}} %| \texttt{\href{https://github.com/zhandavidz/personal-website/}{github.com/zhandavidz/personal-website}}
+\textit{JavaScript, HTML/Sass, Git, Linux} \hfill \texttt{\href{https://davidzhan.com}{davidzhan.com}} %| \texttt{\href{https://github.com/zhandavidz/personal-website/}{github.com/zhandavidz/personal-website}}
 \begin{itemize}
-    \item Displays current projects, programming and photography portfolios, and contact information.
+    \item Displays current projects, my programming and photography portfolios, and my contact info.
     \item Allows me to experiment with and learn web development, Linux server hosting, and Git version control. %, fostering my interest in programming.
     % \item \hl{finish description}
 \end{itemize}
@@ -173,11 +143,11 @@ BS, Computer Science (Honors) \hfill Overall GPA: 3.97 | Major GPA: 4.0 % Degree
 % Skills Section
 \section*{SKILLS}
 \begin{itemize}
-    \item \textbf{Programming:} JavaScript/TypeScript, Python, Java, C, HTML/CSS/Sass, GDScript, PHP, {\fontfamily{lmodern}\selectfont \LaTeX}
+    \item \textbf{Programming:} JavaScript/TypeScript, Python, Java, C, HTML/CSS/Sass, GDScript, PHP, MySQL, {\fontfamily{lmodern}\selectfont \LaTeX}
     \item \textbf{Software:} Familiarity with Linux, the terminal, Git/GitHub, Godot Engine
     \item \textbf{Relevant Coursework:} Intro to Algorithms, Data Structures, Linear Algebra, Statistics, etc.
     \item \textbf{General Skills:} Active listening, inclusive collaboration, problem-solving, efficiency under pressure
-    \item \textbf{Languages:} Native English and Chinese (Mandarin) speaker
+    \item \textbf{Languages:} Native English speaker, speaks Mandarin fluently
 \end{itemize}
 
 % End document
