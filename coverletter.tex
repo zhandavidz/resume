@@ -32,6 +32,9 @@
 \usepackage{soul} % For highlighting
 \usepackage{xcolor} % For color
 
+\usepackage{datetime}
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEDAY, \THEYEAR}
+
 % custom parskip - remove indentations, add spacing between paragraphs
 % \usepackage{parskip}
 \setlength{\parindent}{0pt}
@@ -49,22 +52,49 @@
 \pagestyle{empty}
 
 % Header
-\begin{center}
-\textbf{\large David Zhan}\\[2pt] % Name
+% \begin{center}
+% \textbf{\large David Zhan}\\[2pt] % Name
 
-Albany, CA $|$ Amherst, MA $|$
-\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
+% Albany, CA $|$ Amherst, MA $|$
+% \href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
+
+
+% Header
+\begin{center}
+\textbf{\Large David Zhan}\\[2pt] % Name
+% Albany, CA $|$ Amherst, MA \\
+\href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222} \\
+\href{https://davidzhan.com}{davidzhan.com} $|$ \href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} $|$ \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+
+% \href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
+% $|$
+% \href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} $|$ \href{https://davidzhan.com}{davidzhan.com} $|$ \href{https://github.com/zhandavidz}{github.com/zhandavidz}
 
 % \hrulefill
 \end{center}
 
-January 12, 2024\\
+% June 24, 2024\\
+\monthyeardate\today\\
+
+
+
+% New York City HQ\\
+% 1166 Avenue of the Americas\\
+% New York, NY 10036\\
+
 
 Dear Hiring Manager,
+
+I'm a first-year master's student studying Computer Science at UMass Amherst excited to explore software development and data analysis. I’m interested in contributing to Boingo through the Software Engineer Internship. I would love to bring my experience, communication skills, and technical abilities to make a difference at Boingo.
+
+Of the many projects I’ve worked on, from visualizing data in my internship to my website, the project I’m most proud of is \textit{\href{https://blahgenda.dzhan.dev}{Blahgenda}}, a calendar/scheduler that I worked on with a few of my friends in a hackathon. Initially, we ran into some issues due to our differing levels of experience and lack of organization. Once we took a step back, we found a way to break the project into smaller pieces such that our different skills complemented each other, working separately while regularly checking in and helping one another. I’m incredibly proud of how we worked through our issues towards a common goal and ended up achieving that goal, winning one of the hackathon categories!
+
+In addition to my experiences, my communication and problem-solving skills make me an excellent candidate for this internship. I’m experienced with Python and PostgreSQL through many projects and classes, and I became interested in data analysis through data analysis Internships I did a while back. I'm also a quick learner, and I'll be able to pick up any skills I need. I'm incredibly excited about this opportunity to work on an enterprise application and gain real-world development experience, and I'd love to bring my skills and enthusiasm to help in any way I can.
 
 
 
 Thank you for your time and consideration. I look forward to hearing back from you!
+
 
 Sincerely,\\
 David Zhan
