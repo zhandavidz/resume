@@ -1,4 +1,4 @@
-% places to update: GitHub (release package), /Documents, website, Handshake, Monster, Indeed, RippleMatch, LinkedIn
+% places to update: GitHub (release package), /Documents, website, Simplify, Handshake, Monster, Indeed, RippleMatch, LinkedIn
 
 % Document class and font size
 \documentclass[letterpaper,10pt]{extarticle}
@@ -38,6 +38,8 @@
 \setlist{noitemsep} % Removes item separation
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
 \titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\setlist[itemize]{leftmargin=5.5mm} % sets left margin to roughly equal
+% \setlist[itemize]{leftmargin=*} % removes margin left of bullets
 
 % Begin document
 \begin{document}
@@ -48,11 +50,16 @@
 % Header
 \begin{center}
 \textbf{\Large David Zhan}\\[2pt] % Name
-Albany, CA $|$ Amherst, MA
+% Albany, CA $|$ Amherst, MA
 
 \href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
 
-\href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} $|$ \href{https://davidzhan.com}{davidzhan.com} $|$ \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+\href{https://davidzhan.com}{davidzhan.com} $|$ \href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} $|$ \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+
+% \href{mailto:zhandavidz@gmail.com}{zhandavidz@gmail.com} $|$ \href{tel:5105080222}{(510) 508-0222}
+% $|$
+% \href{https://www.linkedin.com/in/zhandavidz}{linkedin.com/in/zhandavidz} $|$ \href{https://davidzhan.com}{davidzhan.com} $|$ \href{https://github.com/zhandavidz}{github.com/zhandavidz}
+
 \end{center}
 
 % Education Section
@@ -63,71 +70,78 @@ MS, Computer Science \hfill Expected: Sep 2024 - \textbf{May 2026}\\
 BS, Computer Science \hfill Expected: Sep 2022 - May 2025\\
 
 \noindent
-\textbf{Relevant Coursework:} Data Structures, Algorithms, Machine Learning, Databases, Networking, Game Dev etc.
+\textbf{Relevant Coursework:} Data Structures, Algorithms, ML, Databases, Networking, Game Dev etc.
 
-% Experience Section
+
+% % Education Section
+% \section*{EDUCATION}
+% \noindent
+% \textbf{University of Massachusetts Amherst} \hfill Expected: Sep 2024 - \textbf{May 2026}\\
+% MS, Computer Science\\
+
+
+% \noindent
+% \textbf{University of Massachusetts Amherst} \hfill Expected: Sep 2022 - May 2025\\
+% BS, Computer Science \hfill Major GPA: 4.0 $|$ \textbf{Overall GPA: 3.98}\\
+% \textbf{Relevant Coursework:} Data Structures, Algorithms, Machine Learning, Databases, Networking, Game Dev etc.
+
 \section*{EXPERIENCE}
 
 \noindent
 \textbf{UMass Amherst | CICS} \hfill Feb 2024 - Present \\
-\textit{Undergraduate Course Assistant}
+\textit{Undergraduate Course Assistant (Undergraduate TA)}
 \begin{itemize}
-    \item Grade assignments, lead labs and small group discussions in a computer systems and a web dev course.
-    \item Teach concepts and clarify questions during office hours and on the class discussion board.
-    \item Prepare for and present lessons, receiving positive feedback from my professor and students.
+    \item Grade assignments, teach concepts, help students in computer systems and web development courses.
+    \item Prepare for and present lessons, actively facilitating safe learning environment by encouraging questions.
+    \item Increased student engagement during discussions, receiving positive feedback from my professor and students.
 \end{itemize}
 
 
 \noindent
 \textbf{RadWatch | UC Berkeley} \hfill Jun - Aug 2020, 2021 \\
-\textit{Summer Intern / Data Analyst Intern} %\hfill Jun - Aug 2020
+\textit{Summer Intern / Data Analyst Intern}
 \begin{itemize}
     \item Worked on DoseNet, an international sensor network for improving community understanding of radiation.
-    \item Developed and integrated Python scripts and web tools to process and visualize lots of radiation sensor data.
-    \item Wrote a report of my scripts proposing potential use cases while summarizing and documenting my process.
+    \item Implemented and integrated Python scripts and web tools to process and visualize lots of radiation sensor data.
+    \item Wrote report on my scripts proposing potential use cases while summarizing and documenting my process.
 \end{itemize}
 
 \noindent
 \textbf{Academic Talent Development Program} \hfill Jun - Aug 2017, 2019\\ 
-\textit{Teaching Assistant: Web Development, Programming in Java} %\hfill Jun - Aug 2017 % Position and duration 
+\textit{Teaching Assistant: Web Development, Programming in Java}
 \begin{itemize}
     \item Analyzed student code, assisted in grading, and led many small groups of students in completing classwork.
-    \item Lead groups to better collaborate with each other, be more responsible, and learn on their own.
+    \item Guided groups to better collaborate with each other, be more responsible, and learn on their own.
 \end{itemize}
 
 
-% Projects Section
 \section*{PROJECTS}
 \noindent
-\textbf{Blahgenda} \hfill Nov 2022\\ % Project name and location
+\textbf{Blahgenda} \hfill Nov 2022\\
 \textit{JavaScript, React.js, HTML/CSS (Bulma/Sass)} \hfill \texttt{\href{https://blahgenda.dzhan.dev}{blahgenda.dzhan.dev}} | \texttt{\href{https://devpost.com/software/blahgenda}{devpost.com/software/blahgenda}}
 \begin{itemize}
     \item Winning submission to HackUMass X in the category Best Use of Appwrite.
-    \item Collaboratively developed a calendar to maximize efficiency and glanceability while remaining beautiful.
-    \item Designed lots of the UI, improved the flow of the pages, and implemented core features.
-    \item Used React.js and Bulma CSS to quickly write efficient and maintainable code within the 36-hour hackathon.
+    \item Collaboratively developed a calendar to maximize user efficiency and glanceability while remaining beautiful.
+    \item Designed UI, improved page flow, implemented core features, presented final product to judges.
+    \item Built with React.js and Bulma CSS to quickly write efficient and maintainable code within the 36-hour hackathon.
 \end{itemize}
 
-% Additional Project
 \noindent
-\textbf{Personal Website} \hfill Oct 2017 - Present\\ % Project name and location
+\textbf{Personal Website} \hfill Oct 2017 - Present\\
 \textit{JavaScript, HTML/CSS/Sass, Git, Linux} \hfill \texttt{\href{https://davidzhan.com}{davidzhan.com}} %| \texttt{\href{https://github.com/zhandavidz/personal-website/}{github.com/zhandavidz/personal-website}}
 \begin{itemize}
-    \item Developed a static HTML site to display my programming portfolio, experiences, and contact information.%, simultaneously demonstrating my web development abilities.
-    \item Utilized Sass styling and JavaScript loading to reduce code duplication and improve maintainability.
+    \item Overhauled a static HTML site to display my programming portfolio, experiences, and contact information.
+    \item Applied Sass styling and JavaScript loading to reduce code duplication and improve maintainability.
 \end{itemize}
 
 
-% Additional Project
 \noindent
-\textbf{Artemis} \hfill Nov 2020\\ % Project name and location
+\textbf{Artemis} \hfill Nov 2020\\
 \textit{Godot Engine, GDScript (similar to Python)} \hfill \texttt{\href{https://itch.io/jam/game-off-2020/rate/840095}{itch.io/jam/game-off-2020/rate/840095}}
 \begin{itemize}
-    \item Solo submission, ranking in the top half of Game Off 2020, GitHub's annual month-long game jam.
+    \item Placed in the top half of Game Off 2020, GitHub's annual month-long game jam, with my first game.
+    \item Developed the game including code, sound design, and pixel art within one month with no prior experience.
     % \item It's a sci-fi space shooter, where the goal is to survive waves of attacks until you reach the moon.
-    \item Developed game including code, sound design, and pixel art within a single month with no prior experience.
-    % \item Learned
-    % \item \hl{finish description}
 \end{itemize}
 
 
@@ -137,9 +151,9 @@ BS, Computer Science \hfill Expected: Sep 2022 - May 2025\\
     \item \textbf{Programming:} JavaScript/TypeScript, React.js, Python, Java, C, HTML/CSS/Sass, PostgreSQL, Git/GitHub%, GDScript, {\fontfamily{lmodern}\selectfont \LaTeX}
     %\item \textbf{Software:} Familiarity with Linux, the terminal, Git/GitHub, Godot Engine
     %\item \textbf{Relevant Coursework:} Machine Learning, Databases, Algorithms, Data Structures, Linear Algebra, etc.
-    \item \textbf{General Skills:} Active Listening, Inclusive Collaboration, Problem-Solving, Efficiency Under Pressure
+    % \item \textbf{General Skills:} Active Listening, Inclusive Collaboration, Problem-Solving, Efficiency Under Pressure
+    % \item \textbf{General Skills:} Problem-Solving, Active Listening, Collaboration, Native Chinese Speaker (Mandarin)
     \item \textbf{Languages:} Native English and Chinese (Mandarin) speaker
 \end{itemize}
 
-% End document
 \end{document}
